@@ -1,0 +1,227 @@
+.logo {
+  display: flex;
+}
+
+.logoimg {
+  background: #7FC3D9;
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.logotxt {
+  margin: auto;
+  font-weight: 900;
+  font-family: Montserrat;
+}
+
+.headcon {
+  background: rgb(243, 197, 34);
+  background: linear-gradient(90deg, rgb(243, 197, 34) 100%, rgb(243, 172, 34) 100%);
+  display: flex;
+  justify-content: center;
+  padding: 80px 0px;
+}
+
+.con {
+  background: rgb(243, 197, 34);
+  background: linear-gradient(90deg, rgb(243, 197, 34) 100%, rgb(243, 172, 34) 100%);
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  max-width: 1140px;
+}
+
+.headernav {
+  margin: auto;
+}
+
+.menu {
+  font-family: Montserrat;
+}
+.menu > ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  align-content: center;
+}
+.menu > ul > li {
+  height: max-content;
+}
+.menu > ul > li > a {
+  color: black;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 20px;
+}
+.menu > ul > li > a:hover {
+  border-bottom: 1px solid black;
+}
+
+.accwraper {
+  margin: auto;
+}
+
+/*.accordion
+ *  border: none
+ *  background: none
+ *  display: flex
+ *  font-family: Montserrat
+ *  &:hover
+ *      cursor: pointer */
+.accimg {
+  background: #7FC3D9;
+  padding: 18px;
+  border-radius: 50%;
+}
+
+.suka {
+  margin: auto;
+  font-family: Montserrat;
+}
+
+/*.content
+ *  max-height: 0px
+ *  overflow: hidden
+ *  transition: .3s */
+.accordion {
+  display: flex;
+}
+
+.accordion-item {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.accordion-item__triger:hover {
+  cursor: pointer;
+}
+
+.accordion-item__content {
+  display: none;
+}
+
+.accordion-item__input:checked ~ .accordion-item__content {
+  display: block;
+  transition: 0.3s;
+}
+
+#accordion-1 {
+  appearance: none;
+}
+
+.flex {
+  display: flex;
+}
+
+body {
+  background: rgb(243, 197, 34);
+  background: linear-gradient(90deg, rgb(243, 197, 34) 100%, rgb(243, 172, 34) 100%);
+}
+
+.container {
+  padding: 0px 15px;
+}
+
+.maincontent {
+  margin: auto;
+  width: 100%;
+  max-width: 1140px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainimg {
+  background: white;
+  border-radius: 50%;
+}
+
+.maintxt {
+  font-family: Montserrat;
+}
+
+.your {
+  font-weight: 900;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+.txt {
+  font-size: 20px;
+  margin-bottom: 50px;
+  max-width: 70%;
+}
+
+.btn {
+  background: rgb(127, 195, 217);
+  background: linear-gradient(90deg, rgb(127, 195, 217) 100%, rgb(108, 182, 206) 100%);
+  border-radius: 35px;
+  border: none;
+  font-family: Montserrat;
+  font-size: 18px;
+  box-shadow: 0px 9px 35px 0px rgba(127, 195, 217, 0.5019607843);
+  padding: 22px;
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+.cards {
+  display: flex;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 700;
+  max-width: 1140px;
+  margin: auto;
+}
+
+.card1 {
+  background: #E2EDFA;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.2);
+  width: 200px;
+  height: 300px;
+  margin-right: 30px;
+}
+.card1:hover {
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  top: -25px;
+}
+
+.card2 {
+  background: #E2EDFA;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.2);
+  width: 200px;
+  height: 300px;
+}
+.card2:hover {
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  top: -25px;
+}
+
+.cardimg {
+  display: flex;
+  margin: auto;
+}
+
+.cardcont {
+  display: flex;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+/*# sourceMappingURL=style.css.map */
